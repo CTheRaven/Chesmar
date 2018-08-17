@@ -1,0 +1,31 @@
+//------------------------------------------//
+//              media queries               //
+//------------------------------------------//
+@media (max-width: 768px) {
+
+}
+
+@media (min-width: 576px) {
+
+}
+
+@media (min-width: 768px) {
+  
+}
+
+@media (min-width: 992px) {
+    body{
+        height: 4000px;
+    }
+    .white-bg {
+        margin-top: 500px;
+        min-height: 4400px;
+      }
+    .content{
+        margin-top: 600px;
+    }
+}
+
+@media (min-width: 1200px) {
+   
+}

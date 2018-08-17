@@ -1,0 +1,134 @@
+//------------------------------------------//
+//              General                     //
+//------------------------------------------//
+body {
+    font-family: $Quattrocento;
+    font-weight: $Quattrocento-regular;
+    font-size: 13px;
+    color: $black; //background: #cdc url("https://i.imgur.com/LtdNdBp.jpg") repeat top left;
+    padding-top: 75px;
+    background-color: #fff;
+}
+
+.tekst-wit {
+    color: $white;
+    font-size: 12px;
+}
+
+.tekst-wit li {
+    margin-bottom: 5px;
+}
+
+
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-family: $Oswald;
+    font-weight: $Oswald-bold;
+}
+.row,form{
+    margin-bottom: 20px;
+}
+//------------------------------------------//
+//              slanted                     //
+//------------------------------------------//
+.blue-bg {
+    position: absolute;
+/*    background: url(https://www.mangoafricansafaris.com/sites/www.mangoafricansafaris.com/files/styles/original/public/gallery/chumbe_bungallow_and_forest_overview_oskar_henriksson.jpg?itok=UXkgUC5y);
+*/  background: url(../images/ramen02.jpg);
+    background-size: cover;
+    background-color: #58aff6;
+    top: -600px;
+    left:0;
+    height: 2000px;
+    width: 100%;
+    z-index: -1;
+    overflow-x: hidden;
+    background-repeat: no-repeat;
+  }
+  
+  .white-bg {
+    position: absolute;
+    top: 0;
+    left:0;
+    background-color: rgb(255, 255, 255);
+    margin: 300px 0px;
+    width: 100vw;
+    min-height: 6000px;
+    -webkit-transform: skewY(6deg);
+            transform: skewY(6deg);
+    z-index: -1;
+
+  }
+  
+  .content {
+    position: absolute;
+    top: 0;
+    left: 5%;
+    margin-top: 400px;
+    width: 90%;
+    background-color: transparent;
+  }
+  
+  .shadow {
+    box-shadow: -2px -5px 5px 0px rgba(0, 0, 0, 0.3);
+  }
+//------------------------------------------//
+//                 Form opmaak              //
+//------------------------------------------//
+
+.form-group input{
+    background-color: transparent;
+    border: rgba(0, 0, 0, 0.3) 0.1em solid;
+}
+.form-control:focus{
+    border-color: springgreen;
+}
+//------------------------------------------//
+//              Secties opmaak              //
+//------------------------------------------//
+#sectie_welkom{
+    border: rgba(0, 0, 0, 0.3) 0.1em solid;
+    padding: 5% 10%;
+}
+#sectie_testimonials, #sectie_werk, #sectie_about, #sectie_contact{
+    margin-top:5%;
+}
+
+#sectie_testimonials .card.testimonial{
+    border:none;
+}
+
+#sectie_werk .card{
+    height:100%;
+    margin-bottom:10%;
+}
+#sectie_werk .card:hover{
+   /*box-shadow: -1px -2px 5px 5px rgba(175, 253, 48, 0.507);*/
+   transform: scale(1.05);
+    
+}
+
+#sectie_werk .card-img-top{
+height: 400px;
+}
+
+#sectie_werk .btn{
+    margin-top: 10%;
+}
+
+#sectie_about, #sectie_contact{
+    border: rgba(0, 0, 0, 0.3) 0.1em solid;
+}
+
+#sectie_about img, #sectie_contact img{
+    height: 600px;
+    margin-bottom: 5%;
+}
+
+#sectie_about .tekst, #sectie_contact .tekst, #sectie_contact form{
+    padding: 0 5%;
+}

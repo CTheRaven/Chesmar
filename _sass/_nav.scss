@@ -1,0 +1,74 @@
+//------------------------------------------//
+//              navbar                      //
+//------------------------------------------//
+.skew > li {
+    display:inline-block;
+    transition: background 0.2s;
+    -moz-transform: skew(-20deg);
+    -ms-transform: skew(-20deg);
+    -webkit-transform: skew(-20deg);
+    -o-transform: skew(-20deg);
+     transform: skew(-20deg);
+  }
+  .noskew {
+    transition: background 0.2s;
+    -moz-transform: skew(20deg);
+    -ms-transform: skew(20deg);
+    -webkit-transform: skew(20deg);
+    -o-transform: skew(20deg);
+     transform: skew(20deg);
+  }
+.navbar{
+    background-color:rgba(37, 0, 0, 0.3);
+
+}
+.navbar-nav{
+    right: 20px;
+
+   
+}/*
+.navbar .nav-item.active{
+background-color: lightgray;
+}*/
+.navbar ul li{
+
+    height: 100%;
+    margin-top:0;
+    margin-bottom: 0;
+    border:0;
+
+    }
+.navbar ul li:hover{
+    background-color: rgba(0, 139, 139, 0.301);
+}
+.navbar, .navbar-brand{
+padding-left:20px;
+    }
+.dropdown-menu{
+margin-top:0;
+}
+
+.dropdown .dropdown-menu {
+    background-color:rgba(37, 0, 0, 0.3);
+    }
+    .dropdown .dropdown-menu a{
+        color: white;
+    }
+    .dropdown .dropdown-menu a:hover{
+        color: rgba(0, 139, 139, 0.301);
+    }
+
+//------------------------------------------//
+//              footer                      //
+//------------------------------------------//
+
+footer{
+  background-color:rgba(37, 0, 0, 0.3);;
+  position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 20px;
+    color: white;
+    text-align: center;
+}
